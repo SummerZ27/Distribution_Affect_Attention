@@ -1,0 +1,26 @@
+{
+  "series_length": 2000,
+  "seed": 42,
+  "generators": [
+    "HeavyTailedAR1",
+    "GARCH11",
+    "JumpDiffusion",
+    "RegimeSwitching",
+    "TrendBreaks",
+    "RandomWalk",
+    "SeasonTrendOutliers",
+    "MultiSeasonality",
+    "OneOverFNoise"
+  ],
+  "description": {
+    "HeavyTailedAR1": "AR(1) process with Student-t noise (fat-tailed outliers)",
+    "GARCH11": "Time-varying volatility with clustering",
+    "JumpDiffusion": "Drift-diffusion with random massive jumps",
+    "RegimeSwitching": "Mean shifts based on hidden Markov state",
+    "TrendBreaks": "Linear trend with abrupt slope changes",
+    "RandomWalk": "Non-stationary process with no mean reversion",
+    "SeasonTrendOutliers": "Sinusoidal wave with trend and sparse outliers",
+    "MultiSeasonality": "Complex overlapping cycles",
+    "OneOverFNoise": "1/f noise with persistent correlations"
+  }
+}
